@@ -103,7 +103,6 @@
         <finalName>${project.artifactId}</finalName>
     </build>
 	
-	
     <licenses>
         <license>
             <name>MIT License</name>
