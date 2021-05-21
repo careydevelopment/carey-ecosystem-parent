@@ -1,13 +1,13 @@
 node {
 	def app
-	def image = 'careydevelopment/ecosystem-parent'
+	def image = 'careydevelopment/carey-ecosystem-parent'
 	def branch = scm.branches[0].name.substring(2)
 	
 	try {
 		stage('Clone repository') {
 	    	git branch: branch,
 	        	credentialsId: 'GitHub Credentials',
-	        	url: 'https://github.com/careydevelopment/ecosystem-parent.git'
+	        	url: 'https://github.com/careydevelopment/carey-ecosystem-parent.git'
 	    } 
 	
 		//Doing manual builds for now as this requires access to PGP
