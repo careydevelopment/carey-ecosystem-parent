@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>us.careydevelopment.ecosystem</groupId>
     <artifactId>parent</artifactId>
-    <version>1.8.0-RELEASE</version>
+    <version>1.8.1-RELEASE</version>
     <packaging>pom</packaging>
 	
     <parent>
@@ -56,7 +56,7 @@
         <dependency>
             <groupId>us.careydevelopment.ecosystem</groupId>
             <artifactId>jwt-security</artifactId>
-            <version>1.7.0-RELEASE</version>
+            <version>1.7.2-RELEASE</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -70,7 +70,7 @@
   
     <build>
         <plugins>
-            <plugin>
+            <!-- <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
                 <version>1.6.7</version>
@@ -94,8 +94,8 @@
                         </goals>
                     </execution>
                 </executions>
-            </plugin>
-            <plugin>
+            </plugin>-->
+            <plugin> 
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
